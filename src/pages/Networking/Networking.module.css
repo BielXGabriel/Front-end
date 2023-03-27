@@ -23,6 +23,22 @@ margin-top: 9px;
 font-size: 20px;
 }
 
+.salvar_post{
+display: flex;
+color: #2f343b;
+margin-left: 1100px;
+margin-top: -110px;
+font-size: 20px;
+cursor: pointer;
+}
+
+.salvar_post:hover{
+display: flex;
+color: #0c0c0c;
+cursor: pointer;
+}
+
+
 .novo_titulo{
 display: flex;
 margin-left: -200px;
@@ -50,7 +66,7 @@ margin-left: -200px;
 
 .tag_post{
 display: flex;
-width: 800px ;
+width: 100px ;
 margin-top: -150px;
 margin-left: 350px;
 }
@@ -78,12 +94,12 @@ display: flex;
 margin-top: 15px;
 margin-left: 10px;
 color: #F2EEE9;
-border-radius: 30px;
 display: flex;
 }
 
 .create_post {
 text-align: center;
+margin-top: 20px;
 margin-left: 300px;
 border: 1px solid #959595;
 border-top: none;
@@ -91,6 +107,7 @@ border-radius: 15px;
 width: 880px;
 height: 180px;
 display: flex;
+
 }
 
 
@@ -115,35 +132,106 @@ display: flex;
 /* POST */
 
 .post{
-margin-top: 10px;
+display: flex;
+margin-top: 00px;
 margin-left: 300px;
-width: 900px;
-height: 100vh;
+width: 780px;
 text-align: center;
 border-radius: 10px;
 padding: 50px;
-border: 1px solid #000814;
-background-color: #F2EEE9;
 }
 
 .slide2{
+display: flex;
 width: 900px;
-height: 100vh;
+height: 450px;
 }
 
 
 .search_form {
+display: flex;
 max-width: 100%;
 width: 60%;
+margin-top: -250px ;
 margin-left: 1700px;
 margin-bottom: 2em;
 }
 
 .search_form input {
+display: flex;
 margin-left: -300px;
 margin-top: 5px;
 width: 300px;
 }
+
+/* coluna 2 */
+
+.assunto_aqui{
+display: flex;
+font-size: 20px;
+background-color: #ffff;
+border-radius: 15px;
+margin-top: -700px;
+margin-left: 1400px;
+cursor: pointer;
+}
+
+.subAssunto_aqui{
+display: flex;
+font-size: 20px;
+margin-left: 1550px;
+margin-top: -28px;
+background-color: #ffff;
+border-radius: 15px;
+cursor: pointer;
+}
+
+.assunto_aqui2{
+font-size: 20px;
+display: flex;
+background-color: #ffff;
+margin-top: 5px;
+border-radius: 15px;
+margin-left: 1580px;
+cursor: pointer;
+}
+
+.subAssunto_aqui2{
+font-size: 20px;
+display: flex;
+margin-left: 1400px;
+margin-top: -28px;
+background-color: #ffff;
+border-radius: 15px;
+cursor: pointer;
+}
+
+.Destaque{
+font-size: 25px;
+display: flex;
+margin-top: 50px;
+margin-left: 1400px;
+}
+
+.Recentes{
+margin-top: 50px;
+font-size: 25px;
+display: flex;
+margin-left: 1400px;
+}
+
+.titu1{
+margin-top: 10px;
+display: flex;
+margin-left: 1400px;
+}
+
+.titu2{
+margin-top: 10px;
+display: flex;
+margin-left: 1400px;
+}
+
 
 /* home */
 
@@ -157,7 +245,7 @@ flex-direction: row;
 .tela {
 width: 8%;
 height: 100vh;
-margin-top: -1497px;
+margin-top: -435px;
 background-color: #F2EEE9;
 display: flex;
 }
@@ -169,6 +257,7 @@ display: flex;
 color: #000814;
 margin-top: -715px;
 height: 40px;
+width: 50px;
 margin-left: 50px;
 }
 
@@ -177,6 +266,7 @@ margin-top: 60px;
 display: flex;
 color: #000814;
 height: 35px;
+width: 50px;
 margin-left: 45px;
 }
 
@@ -185,6 +275,7 @@ margin-top: 60px;
 display: flex;
 color: #000814;
 height: 40px;
+width: 50px;
 margin-left: 50px;
 }
 
@@ -193,6 +284,7 @@ margin-top: 60px;
 display: flex;
 color: #000814;
 height: 45px;
+width: 50px;
 margin-left: 50px;
 }
 
@@ -201,6 +293,7 @@ margin-top: 60px;
 display: flex;
 color: #000814;
 height: 50px;
+width: 50px;
 margin-left: 55px;
 }
 
@@ -209,9 +302,9 @@ margin-top: 60px;
 display: flex;
 color: #000814;
 height: 50px;
+width: 50px;
 margin-left: 50px;
 }
-
 
  
 .sair {

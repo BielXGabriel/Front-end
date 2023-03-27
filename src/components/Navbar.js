@@ -67,7 +67,7 @@ const Navbar = () => {
           to="/networking"
             className={({ isActive }) => (isActive ? styles.active : "")}
           >
-            Fórum
+            Networking
           </NavLink>
         </li>
             

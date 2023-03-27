@@ -19,7 +19,7 @@ import PostDetail from "../../components/PostDetail";
 
 
 // import Swiper core and required modules
-import { Navigation, Pagination} from 'swiper';
+import { Navigation, Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -106,6 +106,8 @@ const Networking = () => {
     <div className={styles.home}>
 
       <h1 className={styles.titulo}>Networking</h1>
+      <button className={styles.salvar_post} >< img src="img/icones/salvar.png" /></button>
+
 
       <div className={styles.create_post}>
         <form onSubmit={handleSubmit}>
@@ -176,52 +178,71 @@ const Networking = () => {
         </form>
       </div>
 
-      <form className={styles.search_form} onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Ou busque por tags..."
-          onChange={(e) => setQuery(e.target.value)}
-        />
-        <button className="btn btn-dark">Pesquisar</button>
-      </form>
-
       <div className="post-list">
-        {loading && <p>Carregando...</p>}
-        {posts && posts.length === 0 && (
-          <div className={styles.noposts}>
-            <p>Não foram encontrados posts</p>
-          </div>
-        )}
-        <div className={styles.post}>
-          
-          <Swiper 
-        direction="Vertical"
-        className={styles.slide2}
-        modules={[Navigation, Pagination]}
-        slidesPerView={1}
-        navigation={{
-          nextEl: ".swiper-button-next" ,
-          prevEl: ".swiper-button-prev",    
-  }}>
-         
-<SwiperSlide>
-         
-            {posts && posts.map((post) =>
-             <PostDetail key={post.id} post={post} />)}
-
-</SwiperSlide>
         
-<SwiperSlide>
-         
-            {posts && posts.map((post) =>
-             <PostDetail key={post.id} post={post} />)}
+        <div className={styles.post}>
 
-</SwiperSlide>
+          <Swiper
+            direction="Vertical"
+            className={styles.slide2}
+            modules={[Navigation, Pagination]}
+            slidesPerView={1}
+            navigation={{
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            }}>
+
+            <SwiperSlide>
+
+              {posts && posts.map((post) =>
+                <PostDetail key={post.id} post={post} />)}
+
+            </SwiperSlide>
+
+            <SwiperSlide>
+
+              {posts && posts.map((post) =>
+                <PostDetail key={post.id} post={post} />)}
+
+            </SwiperSlide>
+            <SwiperSlide>
+
+              {posts && posts.map((post) =>
+                <PostDetail key={post.id} post={post} />)}
+
+            </SwiperSlide>
+            <SwiperSlide>
+
+              {posts && posts.map((post) =>
+                <PostDetail key={post.id} post={post} />)}
+
+            </SwiperSlide>
+            <SwiperSlide>
+
+              {posts && posts.map((post) =>
+                <PostDetail key={post.id} post={post} />)}
+
+            </SwiperSlide>
           </Swiper>
 
 
 
         </div>
+
+      <div>
+      <button className={styles.assunto_aqui}>.assunto_aqui</button>
+      <button className={styles.subAssunto_aqui}>subAssunto_aqui</button>
+      <button className={styles.assunto_aqui2}>.assunto_aqui</button>
+      <button className={styles.subAssunto_aqui2}>subAssunto_aqui</button>
+      
+      <div className={styles.Destaque}>DESTAQUES</div>
+      <div className={styles.titu1}>Título do post aqui</div>
+
+      <div  className={styles.Recentes}>RECENTES</div>
+      <div className={styles.titu2}>Título do post aqui</div>
+
+
+      </div>
 
 
 
