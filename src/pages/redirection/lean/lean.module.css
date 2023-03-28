@@ -1,0 +1,266 @@
+/* linha 1 */
+
+.foto1{
+display: flex;
+margin-left: 230px;
+margin-top: 60px;
+}
+
+.beneficios{
+display: flex;
+width: 400px;
+height: 300px;
+margin-left: 1150px;
+margin-top: -400px;
+}
+
+.Emprestimop{
+position: absolute;
+font-size: 35px;
+margin-top: 0px;
+}
+
+.beneficios1{
+position: absolute;
+font-size: 25px;
+margin-top: 100px;
+}
+
+.beneficios2{
+position: absolute;
+font-size: 25px;
+margin-top: 150px;
+}
+
+.beneficios3{
+position: absolute;
+font-size: 25px;
+margin-top: 200px;
+}
+
+.Fazerem{
+width: 400px;
+height: 50px;
+background-color: #000814;
+color: #ffffff;
+border-radius: 15px;
+position: absolute;
+text-align:start;
+font-size: 25px;
+margin-top: 250px;
+font-family: Poppins;
+cursor: pointer;
+}
+
+.Fazerem:hover{
+width: 400px;
+height: 50px;
+background-color: #ffffff;
+color: #000814;
+border-radius: 15px;
+position: absolute;
+text-align:start;
+font-size: 25px;
+margin-top: 250px;
+font-family: Poppins;
+cursor: pointer;
+}
+
+.Fazerem1{
+position: absolute;
+margin-left: 120px ;
+margin-top: 6px;
+}
+
+/* linha 2 */
+
+.telab2{
+width: 100vw;
+height: 300px;
+margin-top: 180px;
+display: flex;
+background-color: #000814;
+}
+
+.textob{
+position: absolute;
+margin-top: 50px;
+margin-left: 260px;
+width: 1500px;
+color: #ffffff;
+display: flex;
+}
+
+.textob2{
+position: absolute;
+margin-top: 150px;
+margin-left: 260px;
+width: 1500px;
+color: #ffffff;
+display: flex;
+}
+
+/* linha 3 */
+
+.contato{
+display: flex;
+width: 100vw;
+height: 300px;
+}
+
+.Duvidas{
+position: absolute;
+font-weight: bold;
+width: 1450px;
+font-size: 20px;
+margin-top: 90px;
+margin-left: 260px;
+border-bottom: 2px solid #898989;
+}
+
+.bloco1{
+position: absolute;
+width: 1450px;
+font-size: 20px;
+margin-top: 160px;
+margin-left: 260px;
+border-bottom: 1px solid #898989;
+}
+
+.bloco2{
+position: absolute;
+width: 1450px;
+font-size: 20px;
+margin-top: 240px;
+margin-left: 260px;
+border-bottom: 1px solid #898989;
+}
+
+.bloco3{
+position: absolute;
+width: 1450px;
+font-size: 20px;
+margin-top: 300px;
+margin-left: 260px;
+border-bottom: 1px solid #898989;
+}
+
+/* home */
+
+.home {
+flex-direction: row;
+}
+
+/* Tela */
+
+.tela {
+width: 8%;
+height: 100vh;
+background-color: #F2EEE9;
+margin-top: -1298px;
+display: flex;
+}
+
+
+/* icons esquedo */
+
+.icone1 {
+display: flex;
+color: #000814;
+margin-top: -815px;
+height: 40px;
+width: 50px;
+border-radius: 25px;
+margin-left: 50px;
+}
+
+.icone1:hover { 
+  background-color: #ffffff;
+}
+
+.icone2 {
+margin-top: 60px;
+display: flex;
+color: #000814;
+height: 35px;
+width: 50px;
+border-radius: 25px;
+margin-left: 45px;
+}
+
+.icone2:hover { 
+  background-color: #ffffff;
+}
+
+.icone3 {
+margin-top: 60px;
+display: flex;
+color: #000814;
+height: 40px;
+width: 50px;
+border-radius: 25px;
+margin-left: 50px;
+}
+
+.icone3:hover { 
+  background-color: #ffffff;
+}
+
+.icone4 {
+margin-top: 60px;
+display: flex;
+color: #000814;
+height: 45px;
+width: 50px;
+border-radius: 25px;
+margin-left: 50px;
+background-color: #ffffff;
+}
+
+.icone4:hover { 
+  background-color: #ffffff;
+}
+
+.icone5 {
+margin-top: 60px;
+display: flex;
+color: #000814;
+height: 50px;
+width: 50px;
+border-radius: 25px;
+margin-left: 55px;
+}
+
+.icone5:hover { 
+  background-color: #ffffff;
+}
+
+.icone6 {
+margin-top: 60px;
+display: flex;
+color: #000814;
+height: 50px;
+width: 50px;
+border-radius: 25px;
+margin-left: 50px;
+}
+
+.icone6:hover { 
+  background-color: #ffffff;
+}
+
+
+ 
+.sair {
+margin-top: 75px;
+display: flex;
+height: 80px;
+width: 5px;
+margin-left: 50px;
+color: #000814;
+font-size: 15px;
+}
+
+
+
+ 

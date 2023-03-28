@@ -22,7 +22,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { style } from "@mui/system";
 
 
 
@@ -144,7 +143,7 @@ const Home = () => {
 
       <Link to="/networking" className={styles.icone3} ><img src="img/icones/akar-icons_network.png"></img></Link>
 
-      <Link to="/posts/create" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
+      <Link to="/lean" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
 
       <Link to="/posts/create" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
 

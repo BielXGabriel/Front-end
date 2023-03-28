@@ -8,6 +8,7 @@ import { useState, useEffect } from "react";
 import { useAuthentication } from "./hooks/useAuthentication";
 
 // pages
+import Card from "./pages/redirection/machinecard"
 import Networking from "./pages/Networking/Networking";
 import Home from "./pages/Home/Home";
 import Service from "./pages/Service/Service"
@@ -17,6 +18,7 @@ import Post from "./pages/Post/Post";
 import Edit from "./pages/People1/Edit/Edit"
 import Chat from "./pages/Chat/chat"
 import Cursos from "./pages/Cursos/Cursos"
+import Lean from "./pages/redirection/lean/lean"
 
 // components
 import Navbar from "./components/Navbar";
@@ -54,12 +56,12 @@ function App() {
     return <p>Carregando...</p>;
   }
 
-  if(user === null ){
-    return(
-      
-   <div>
-      <Register/>
-    </div>
+  if (user === null) {
+    return (
+
+      <div>
+        <Register />
+      </div>
     )
   }
 
@@ -81,8 +83,10 @@ function App() {
               <Route path="/edits" element={<EditS1 />} />
               <Route path="/editservice" element={<EditService />} />
               <Route path="/aula1" element={<Aula1 />} />
+              <Route path="/lean" element={<Lean />} />
+              <Route path="/machinecard" element={< Card />} />
+
               <Route path="/s1" element={<S1 />} /><Route path="/s2" element={<S2 />} /><Route path="/s3" element={<S3 />} /><Route path="/s4" element={<S4 />} />
-              
               <Route
                 path="/posts/create"
                 element={user ? <CreatePost /> : <Navigate to="/login" />}
@@ -105,19 +109,19 @@ function App() {
                 path="/dashboard"
                 element={user ? <Dashboard /> : <Navigate to="/login" />}
               />
-            
 
-            <Route
+
+              <Route
                 path="/people1"
                 element={user ? <People1 /> : <Navigate to="/people1" />}
               />
             </Routes>
 
-           
-            
+
+
           </div>
 
-          
+
         </BrowserRouter>
       </AuthProvider>
 

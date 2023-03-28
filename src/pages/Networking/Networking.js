@@ -257,7 +257,7 @@ const Networking = () => {
 
       <Link to="/Cursos" className={styles.icone2} ><img src="img/icones/Vector.png"></img></Link>
 
-      <Link to="/forum" className={styles.icone3} ><img src="img/icones/akar-icons_network.png"></img></Link>
+      <Link to="/networking" className={styles.icone3} ><img src="img/icones/akar-icons_network.png"></img></Link>
 
       <Link to="/posts/create" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
 

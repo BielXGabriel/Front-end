@@ -603,9 +603,15 @@ display: flex;
 .icone1 {
 display: flex;
 color: #000814;
-margin-top: -715px;
+margin-top: -705px;
 height: 40px;
+width: 50px;
+border-radius: 25px;
 margin-left: 50px;
+}
+
+.icone1:hover { 
+    background-color: #ffffff;
 }
 
 .icone2 {
@@ -613,7 +619,14 @@ margin-top: 60px;
 display: flex;
 color: #000814;
 height: 35px;
+width: 50px;
+border-radius: 25px;
 margin-left: 45px;
+background-color: #ffffff;
+}
+
+.icone2:hover { 
+    background-color: #ffffff;
 }
 
 .icone3 {
@@ -621,7 +634,13 @@ margin-top: 60px;
 display: flex;
 color: #000814;
 height: 40px;
+width: 50px;
+border-radius: 25px;
 margin-left: 50px;
+}
+
+.icone3:hover { 
+background-color: #ffffff;
 }
 
 .icone4 {
@@ -629,7 +648,13 @@ margin-top: 60px;
 display: flex;
 color: #000814;
 height: 45px;
+width: 50px;
+border-radius: 25px;
 margin-left: 50px;
+}
+
+.icone4:hover { 
+    background-color: #ffffff;
 }
 
 .icone5 {
@@ -637,7 +662,13 @@ margin-top: 60px;
 display: flex;
 color: #000814;
 height: 50px;
+width: 50px;
+border-radius: 25px;
 margin-left: 55px;
+}
+
+.icone5:hover { 
+    background-color: #ffffff;
 }
 
 .icone6 {
@@ -645,7 +676,13 @@ margin-top: 60px;
 display: flex;
 color: #000814;
 height: 50px;
+width: 50px;
+border-radius: 25px;
 margin-left: 50px;
+}
+
+.icone6:hover { 
+    background-color: #ffffff;
 }
 
 
