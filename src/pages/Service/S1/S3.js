@@ -50,11 +50,10 @@ const S3 = () => {
     <div className={styles.texto2}>Pintura a Oleo</div>
     
     <div className={styles.texto3}><LocationOnIcon/>online</div>
-    
-    <img className={styles.img1} src="https://fce.edu.br/blog/wp-content/uploads/2018/08/AS-M%C3%9ALTIPLAS-VERTENTES-DA-ARTE-NA-EDUCA%C3%87%C3%83O-INFANTIL.jpg"></img>
-    <img className={styles.img2} src="https://www.vozdascomunidades.com.br/wp-content/uploads/2017/11/2BD26EA5-2DE0-4213-90EE-56CEB11F6E3C.jpeg"></img>
-    <img className={styles.img3} src="https://i0.wp.com/www.sabra.org.br/site/wp-content/uploads/2018/10/qual-a-importancia-da-arte-na-educacao-inclusiva-20180705134730.jpg.jpg?fit=1500%2C1000&ssl=1"></img>
-        
+   
+<img className={styles.img1} src="img/serviços/REctangle 318.png"></img>
+<img className={styles.img2} src="img/serviços/REctangle 320.png"></img>
+<img className={styles.img3} src="img/serviços/REctangle 321.png"></img>
     
     
     <div className={styles.texto4}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. </div>
@@ -101,11 +100,11 @@ const S3 = () => {
 
 <Link to="/networking" className={styles.icone3} ><img src="img/icones/akar-icons_network.png"></img></Link>
 
-<Link to="/posts/create" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
+<Link to="/lean" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
 
-<Link to="/posts/create" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
+<Link to="/accountbank" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
 
-<Link to="/financeiro" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
+<Link to="/machinecard" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
 
 <Link to="/" className={styles.sair} onClick={logout} >SAIR</Link>
 

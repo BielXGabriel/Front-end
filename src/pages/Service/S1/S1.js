@@ -50,9 +50,9 @@ const S1 = () => {
 
 <div className={styles.texto3}><LocationOnIcon/>online</div>
 
-<img className={styles.img1} src="https://s3-alpha-sig.figma.com/img/2bb2/6143/9ffc32005800db18c2ddcfc45adb3b48?Expires=1675036800&Signature=AHFb8~zv0PrzK8PNi-VxNuM5KrTDLXCNnMtcvsdWwp6YPgCu~ihVcWV~dx69FzV7AqQHRFhiD9W9RITH2De9R0vRESwNsAFxiFEuNpwWEzzIAHco679qj4sYDBI1ye-yu6-~yKrV-26odSihShE7x8FSfIoLN1iYNRLcq5~qpAUEtZCOL-vYVemtykeHRe4RHOPjsYiB6mQ2rLOL-n1G5wxvF7bro-iFxydkrefVU~AVJdzq~rbH8iIogeeP3k5a1vGtHe8VrKifBox1er8U3ab2UBq0MFWVmDUto2zWN52zV1o05pbNotT4rITl-3dcn4QuMIqaVU6PL7srz0KwGA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"></img>
-<img className={styles.img2} src="https://s3-alpha-sig.figma.com/img/aa0a/0545/8d4d10220e1942eff24b38d7eb35b459?Expires=1675036800&Signature=A4X3MDEpaEDasRoRMzIYcxPRvKWzX6w3HcJsl9Q8tt0yPM4NFNv~cjuo0fip4Q9Vw1gYQK-wDXQ-S6-COXvB1IdcUMK6PSEaHxQUK4qs5WYMs7VharGdhTJOXmgD02rsQaVcME6Y~U5PccbG1iAUhGJuC~RnvkAEm7xtGUiLkif6KjEgHbbLu9Z4heaJEz1N~ycgARy5dPSEXAm55htRc~C2Uz-FawyMSAeP7hBktBk0wif2K6ySli3X4ga1E0EsWJ4iWr2U5hJw85209TMNiRL0PrpMNOb8YU4n3G1vlXTfJkHAF12TrUIkl9ntSLxN7di6koEdxpxFhT6okzwMRA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"></img>
-<img className={styles.img3} src="https://s3-alpha-sig.figma.com/img/213f/d55a/ea6f7bd626555e8003212ceaf77c83ac?Expires=1675036800&Signature=Qw0mjUG5qMFtnQrjHm7qYeq9j~PazRAaQRSt7nLy8CcaN8hT9OxVcKlI-KCTLXB~FRuU79BUT~EfrSDHfFVnPyErnKthKr9Fh5hsOR-tBnRJvqU8G8LxrrAFC8jbXZ1ukNaYHTh9bRu8VfxbmwuyrmKLoNqNwGQ0Sktwt6h3AcDplwkXl5gpc7gGsm4VnQ6Am~B~pj1JcbCm5OjAgOyUctdpNKLLdm5xE538KhJCuljMwDgazstpeHohMMWLvdATQHnRyktt3NAwO6qZL-H1fa1PyYYZ~A2beyErO-Ggpd9sYLgWNs54r390LjE4NlAyil1kSkuDNIHfQYIc2enYyw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"></img>
+<img className={styles.img1} src="img/serviços/REctangle 318.png"></img>
+<img className={styles.img2} src="img/serviços/REctangle 320.png"></img>
+<img className={styles.img3} src="img/serviços/REctangle 321.png"></img>
     
 
 
@@ -98,11 +98,11 @@ const S1 = () => {
 
 <Link to="/networking" className={styles.icone3} ><img src="img/icones/akar-icons_network.png"></img></Link>
 
-<Link to="/posts/create" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
+<Link to="/lean" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
 
-<Link to="/posts/create" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
+<Link to="/accountbank" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
 
-<Link to="/financeiro" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
+<Link to="/machinecard" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
 
 <Link to="/" className={styles.sair} onClick={logout} >SAIR</Link>
 

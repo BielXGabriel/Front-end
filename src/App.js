@@ -8,8 +8,9 @@ import { useState, useEffect } from "react";
 import { useAuthentication } from "./hooks/useAuthentication";
 
 // pages
-import Card from "./pages/redirection/machinecard"
 import Networking from "./pages/Networking/Networking";
+import Level from "./pages/Level/Level"
+import Benefits from "./pages/Level/Benefits/Benefits"
 import Home from "./pages/Home/Home";
 import Service from "./pages/Service/Service"
 import EditService from "./pages/Service/EditService/EditService";
@@ -19,6 +20,8 @@ import Edit from "./pages/People1/Edit/Edit"
 import Chat from "./pages/Chat/chat"
 import Cursos from "./pages/Cursos/Cursos"
 import Lean from "./pages/redirection/lean/lean"
+import Accountbank from "./pages/redirection/digital_account/digitalaccount"
+import Card from "./pages/redirection/machinecard/machinecard"
 
 // components
 import Navbar from "./components/Navbar";
@@ -76,6 +79,8 @@ function App() {
               <Route path="/financeiro" element={<Financeiro />} />
               <Route path="/edit" element={<Edit />} />
               <Route path="/networking" element={<Networking />} />
+              <Route path="/levelb" element={< Level />} />
+              <Route path="/benefits" element={<Benefits/>}/>
               <Route path="/chat" element={<Chat />} />
               <Route path="/Cursos" element={<Cursos />} />
               <Route path="/service" element={<Service />} />
@@ -85,7 +90,7 @@ function App() {
               <Route path="/aula1" element={<Aula1 />} />
               <Route path="/lean" element={<Lean />} />
               <Route path="/machinecard" element={< Card />} />
-
+              <Route path="/accountbank" element={< Accountbank />} />
               <Route path="/s1" element={<S1 />} /><Route path="/s2" element={<S2 />} /><Route path="/s3" element={<S3 />} /><Route path="/s4" element={<S4 />} />
               <Route
                 path="/posts/create"

@@ -51,10 +51,9 @@ const S2 = () => {
 
 <div className={styles.texto3}><LocationOnIcon/>online</div>
 
-<img className={styles.img1} src="https://www.baressp.com.br/barreporter/imgs/famigliamanzoli.jpg"></img>
-<img className={styles.img2} src="https://cdn0.casamentos.com.br/vendor/5919/3_2/960/jpg/img-20171105-wa0037_13_155919_v1.jpeg"></img>
-<img className={styles.img3} src="https://www.baressp.com.br/images/conteudo/servico-de-buffet-para-evento-em-sao-paulo.jpg"></img>
-    
+<img className={styles.img1} src="img/serviços/REctangle 318.png"></img>
+<img className={styles.img2} src="img/serviços/REctangle 320.png"></img>
+<img className={styles.img3} src="img/serviços/REctangle 321.png"></img>
 
 
 <div className={styles.texto4}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. </div>
@@ -99,11 +98,11 @@ const S2 = () => {
 
 <Link to="/networking" className={styles.icone3} ><img src="img/icones/akar-icons_network.png"></img></Link>
 
-<Link to="/posts/create" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
+<Link to="/lean" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
 
-<Link to="/posts/create" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
+<Link to="/accountbank" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
 
-<Link to="/financeiro" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
+<Link to="/machinecard" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
 
 <Link to="/" className={styles.sair} onClick={logout} >SAIR</Link>
 

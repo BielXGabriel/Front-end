@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <NavLink className={styles.brand} to="/">
-       <i>Impulsione</i>  by Crefisa
+        <i>Impulsione</i>  by Crefisa
       </NavLink>
       <ul className={styles.links_list}>
         <li>
@@ -54,23 +54,32 @@ const Navbar = () => {
                 to="/register"
                 className={({ isActive }) => (isActive ? styles.active : "")}
               >
-                Cadastrar 
+                Cadastrar
               </NavLink>
             </li>
           </>
         )}
         {user && (
           <>
-          
-          <li>
-          <NavLink
-          to="/networking"
-            className={({ isActive }) => (isActive ? styles.active : "")}
-          >
-            Networking
-          </NavLink>
-        </li>
-            
+
+            <li>
+              <NavLink
+                to="/networking"
+                className={({ isActive }) => (isActive ? styles.active : "")}
+              >
+                Networking
+              </NavLink>
+            </li>
+
+            <li>
+              <NavLink
+                to="/levelb"
+                className={({ isActive }) => (isActive ? styles.active : "")}
+              >
+                Nível e Benefícios
+              </NavLink>
+            </li>
+
             <li>
               <NavLink
                 to="/dashboard"
@@ -81,14 +90,14 @@ const Navbar = () => {
             </li>
           </>
         )}
-        
-        
+
+
         <li>
           <NavLink
             to="/people1"
             className={({ isActive }) => (isActive ? styles.active : "")}
           >
-            <PermIdentityIcon/>
+            <PermIdentityIcon />
           </NavLink>
         </li>
 
@@ -97,10 +106,10 @@ const Navbar = () => {
             to="/chat"
             className={({ isActive }) => (isActive ? styles.active : "")}
           >
-            <ChatBubbleOutlineIcon/>
+            <ChatBubbleOutlineIcon />
           </NavLink>
         </li>
-        
+
 
       </ul>
     </nav>

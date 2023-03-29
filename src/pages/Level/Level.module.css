@@ -1,0 +1,504 @@
+/* coluna 1 */
+
+/* bloco xp */
+
+.nivel1{
+display: flex;
+margin-left: 260px;
+margin-top: 120px;
+border-bottom: 1px solid #a0a0a0;
+width: 400px;
+height: 80px;
+}
+
+.NivelN1{
+position: absolute;
+margin-left: 22px;
+margin-top: 5px;
+}
+
+.NivelN2{
+position: absolute;
+margin-left: 310px;
+margin-top: 5px;
+}
+
+.barra{
+position: absolute;
+margin-left: 25px;
+margin-top:35px;
+width: 350px;
+height: 10px;
+border-radius: 15px;
+background-color: #a0a0a0;
+}
+
+.inicioxp{
+position: absolute;
+margin-left: 22px;
+margin-top: 50px;
+}
+
+.finalxp{
+position: absolute;
+margin-left: 310px;
+margin-top: 50px;
+}
+
+
+/* bbenefícios */
+
+.TBeneficios{
+display: flex;
+margin-left: 260px;
+margin-top: 30px; 
+font-size: 22px;
+font-family: 'Poppins';
+}
+
+.bot1{
+display: flex;
+margin-left: 260px;
+margin-top: 10px; 
+background-color: #000814;
+color: #ffffff;
+font-size: 16px;
+border-radius: 20px;
+text-align: center;
+cursor: pointer;
+font-family: Poppins;
+}
+
+.bot1:hover {
+display: flex;
+margin-left: 260px;
+margin-top: 10px; 
+background-color: #ffffff;
+color: #000814;
+font-size: 16px;
+border-radius: 20px;
+text-align: center;
+}
+
+
+.bot2{
+display: flex;
+margin-left: 260px;
+margin-top: 8px; 
+background-color: #000814;
+color: #ffffff;
+font-size: 16px;
+border-radius: 20px;
+text-align: center;
+font-family: Poppins;
+}
+
+.bot2:hover {
+display: flex;
+margin-left: 260px;
+margin-top: 8px; 
+background-color: #ffffff;
+color: #000814;
+font-size: 16px;
+border-radius: 20px;
+text-align: center;
+}
+
+/* bloco 2 */
+
+.ProximoN{
+display: flex;
+margin-left: 260px;
+margin-top: 30px;
+width: 400px;
+height: 400px;
+border-radius: 20px;
+background-color: #F2EEE9;
+}
+
+.Npor{
+position: absolute;
+margin-left: 50px;
+margin-top: 25px;
+width: 100px;
+height: 100px;
+}
+
+.Ntext{
+position: absolute;
+margin-left: 150px;
+margin-top: 55px;
+width: 210px;
+height: 120px;
+font-family: Poppins;
+font-size: 22px;
+}
+
+.Ntext2{
+position: absolute;
+margin-left: 20px;
+margin-top: 150px;
+text-align: center;
+width: 360px;
+height: 120px;
+font-family: Poppins;
+font-size: 18px;
+}
+
+.npn1{
+position: absolute;
+margin-left: 50px;
+margin-top: 250px;
+width: 360px;
+height: 120px;
+font-family: Poppins;
+}
+
+.npn2{
+position: absolute;
+margin-left: 50px;
+margin-top: 280px;
+width: 360px;
+height: 120px;
+font-family: Poppins;
+}
+
+.abrapj{
+position: absolute;
+margin-left: 50px;
+margin-top: 320px;
+width: 300px;
+height: 50px;
+border-radius: 15px;
+font-family: Poppins;
+background-color: #000814;
+color: #ffffff;
+}
+
+.abrapj:hover{
+position: absolute;
+margin-left: 50px;
+margin-top: 320px;
+width: 300px;
+height: 50px;
+border-radius: 15px;
+font-family: Poppins;
+background-color: #ffffff;
+color: #000814;
+}
+
+/* coluna 2 */
+
+.emblemac{
+display: flex;
+width: 400px;
+margin-top: -650px;
+margin-left:  770px;
+font-size: 20px;
+font-family: Poppins;
+border-bottom: 2px solid #a0a0a0;
+padding-bottom: 20px;
+}
+
+/* emblemas */
+
+.Conquistados{
+display: flex;
+width: 400px;
+height: 90px;
+margin-top: 0px;
+margin-left:  770px;
+padding-bottom: 5px;
+border-bottom: 2px solid #a0a0a0;
+}
+
+.emblemai{
+position: absolute;
+width: 80px;
+height: 80px;
+margin-top: 5px;
+margin-left: 10px;
+border-radius: 50px;
+background-color: #F2EEE9;
+}
+
+.nomeemb{
+position: absolute;
+width: 250px;
+margin-top: 20px;
+margin-left: 100px;
+font-family: Poppins;
+}
+
+.xpemb{
+position: absolute;
+width: 250px;
+margin-top: 20px;
+margin-left: 300px;
+font-family: Poppins;
+}
+
+.descricaoemb{
+color: #a0a0a0;
+position: absolute;
+width: 300px;
+margin-top: 50px;
+margin-left: 100px;
+font-family: Poppins;
+}
+
+/* emblemas disponíveis */
+
+.emblemad{
+display: flex;
+width: 400px;
+height: 40px;
+margin-top: 50px;
+margin-left:  770px;
+padding-bottom: 1px;
+font-family: Poppins;
+border-bottom: 2px solid #a0a0a0;
+}
+
+/* blocos */
+
+.Emblemast{
+display: flex;
+margin-left: 770px;
+width: 400px;
+height: 0px;
+}
+
+/* bloco 1 */
+
+.box1{
+display: flex;
+background-color: #F2EEE9;
+width: 70px;
+height: 70px;
+border-radius: 50px;
+margin-left: 10px;
+margin-top: 15px;
+}
+
+
+.box2{
+display: flex;
+background-color: #F2EEE9;
+width: 70px;
+height: 70px;
+border-radius: 50px;
+margin-left: 10px;
+margin-top: 15px;
+}
+
+.box3{
+display: flex;
+background-color: #F2EEE9;
+width: 70px;
+height: 70px;
+border-radius: 50px;
+margin-left: 10px;
+margin-top: 15px;
+}
+
+/* bloco 2 */
+
+.box4{
+display: flex;
+background-color: #F2EEE9;
+width: 70px;
+height: 70px;
+border-radius: 50px;
+margin-left: 10px;
+margin-top: 100px;
+}
+
+.box5{
+display: flex;
+background-color: #F2EEE9;
+width: 70px;
+height: 70px;
+border-radius: 50px;
+margin-left: 10px;
+margin-top: 100px;
+}
+
+.box6{
+display: flex;
+background-color: #F2EEE9;
+width: 70px;
+height: 70px;
+border-radius: 50px;
+margin-left: 10px;
+margin-top: 100px;
+}
+
+/* coluna 3 */ 
+
+.beneficiosi{
+display: flex;
+width: 450px;
+height: 250px;
+margin-left: 1300px;
+margin-top: -280px;
+background-color: #F2EEE9;
+border-radius: 25px;
+}
+
+.cadeado{
+position: absolute;
+margin-top: 60px;
+margin-left: 40px;
+width: 90px;
+height: 90px;
+}
+
+.beneficiobt{
+position: absolute;
+font-size: 23px;
+width: 300px;
+margin-top: 50px;
+margin-left: 150px;
+font-family: Poppins;
+}
+
+.benebot{
+position: absolute;
+font-size: 23px;
+width: 350px;
+height: 50px;
+margin-top: 170px;
+margin-left: 50px;
+border-radius: 12px;
+background-color: #000814;
+color: #ffffff;
+font-family: Poppins;
+}
+
+.benebot:hover{
+background-color: #ffffff;
+color: #000814;
+}
+
+/* home */
+
+.home {
+flex-direction: row;
+}
+
+
+/* Tela */
+
+.tela {
+width: 8%;
+height: 87.5vh;
+margin-top: -390px;
+background-color: #F2EEE9;
+display: flex;
+}
+
+
+
+/* icons esquedo */
+
+.icone1 {
+display: flex;
+color: #000814;
+margin-top: -700px;
+height: 40px;
+width: 50px;
+border-radius: 25px;
+margin-left: 50px;
+}
+
+.icone1:hover {
+background-color:#ffffff;
+}
+
+.icone2 {
+margin-top: 60px;
+display: flex;
+color: #000814;
+height: 35px;
+width: 50px;
+border-radius: 25px;
+margin-left: 45px;
+}
+
+.icone2:hover {
+background-color:#ffffff;
+}
+
+
+.icone3 {
+margin-top: 60px;
+display: flex;
+color: #000814;
+height: 40px;
+width: 50px;
+border-radius: 25px;
+margin-left: 50px;
+}
+
+.icone3:hover {
+background-color:#ffffff;
+}
+
+.icone4 {
+margin-top: 60px;
+display: flex;
+color: #000814;
+height: 45px;
+width: 50px;
+border-radius: 25px;
+margin-left: 50px;
+}
+
+.icone4:hover {
+background-color:#ffffff;
+}
+
+.icone5 {
+margin-top: 60px;
+display: flex;
+color: #000814;
+height: 50px;
+width: 50px;
+border-radius: 25px;
+margin-left: 55px;
+}
+
+.icone5:hover {
+background-color:#ffffff;
+}
+
+.icone6 {
+margin-top: 60px;
+display: flex;
+color: #000814;
+height: 50px;
+width: 50px;
+border-radius: 25px;
+margin-left: 50px;
+}
+
+.icone6:hover {
+background-color:#ffffff;
+}
+
+
+ 
+.sair {
+margin-top: 75px;
+display: flex;
+height: 10px;
+width: 10px;
+margin-left: 50px;
+color: #000814;
+font-size: 15px;
+}
+
+
+
+ 

@@ -202,11 +202,11 @@ const Chat = () => {
 
       <Link to="/networking" className={styles.icone3} ><img src="img/icones/akar-icons_network.png"></img></Link>
 
-      <Link to="/posts/create" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
+      <Link to="/lean" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
 
-      <Link to="/posts/create" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
+      <Link to="/accountbank" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
 
-      <Link to="/financeiro" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
+      <Link to="/machinecard" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
 
       <Link to="/" className={styles.sair} onClick={logout} >SAIR</Link>
 

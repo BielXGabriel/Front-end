@@ -11,7 +11,7 @@ display: flex;
 width: 400px;
 height: 300px;
 margin-left: 1150px;
-margin-top: -400px;
+margin-top: -520px;
 }
 
 .Emprestimop{
@@ -38,6 +38,18 @@ font-size: 25px;
 margin-top: 200px;
 }
 
+.beneficios4{
+position: absolute;
+font-size: 25px;
+margin-top: 250px;
+}
+
+.beneficios5{
+position: absolute;
+font-size: 25px;
+margin-top: 300px;
+}
+
 .Fazerem{
 width: 400px;
 height: 50px;
@@ -47,7 +59,7 @@ border-radius: 15px;
 position: absolute;
 text-align:start;
 font-size: 25px;
-margin-top: 250px;
+margin-top: 380px;
 font-family: Poppins;
 cursor: pointer;
 }
@@ -61,7 +73,7 @@ border-radius: 15px;
 position: absolute;
 text-align:start;
 font-size: 25px;
-margin-top: 250px;
+margin-top: 380px;
 font-family: Poppins;
 cursor: pointer;
 }
@@ -77,7 +89,7 @@ margin-top: 6px;
 .telab2{
 width: 100vw;
 height: 300px;
-margin-top: 180px;
+margin-top: 250px;
 display: flex;
 background-color: #000814;
 }
@@ -155,11 +167,12 @@ flex-direction: row;
 
 .tela {
 width: 8%;
-height: 100vh;
+height: 108.2vh;
+margin-top: -1340px;
 background-color: #F2EEE9;
-margin-top: -1298px;
 display: flex;
 }
+
 
 
 /* icons esquedo */
@@ -167,15 +180,15 @@ display: flex;
 .icone1 {
 display: flex;
 color: #000814;
-margin-top: -815px;
+margin-top: -899px;
 height: 40px;
 width: 50px;
 border-radius: 25px;
 margin-left: 50px;
 }
 
-.icone1:hover { 
-  background-color: #ffffff;
+.icone1:hover {
+background-color:#ffffff;
 }
 
 .icone2 {
@@ -188,9 +201,10 @@ border-radius: 25px;
 margin-left: 45px;
 }
 
-.icone2:hover { 
-  background-color: #ffffff;
+.icone2:hover {
+background-color:#ffffff;
 }
+
 
 .icone3 {
 margin-top: 60px;
@@ -202,8 +216,8 @@ border-radius: 25px;
 margin-left: 50px;
 }
 
-.icone3:hover { 
-  background-color: #ffffff;
+.icone3:hover {
+background-color:#ffffff;
 }
 
 .icone4 {
@@ -214,11 +228,10 @@ height: 45px;
 width: 50px;
 border-radius: 25px;
 margin-left: 50px;
-background-color: #ffffff;
 }
 
-.icone4:hover { 
-  background-color: #ffffff;
+.icone4:hover {
+background-color:#ffffff;
 }
 
 .icone5 {
@@ -229,10 +242,11 @@ height: 50px;
 width: 50px;
 border-radius: 25px;
 margin-left: 55px;
+background-color:#ffffff;
 }
 
-.icone5:hover { 
-  background-color: #ffffff;
+.icone5:hover {
+background-color:#ffffff;
 }
 
 .icone6 {
@@ -245,8 +259,8 @@ border-radius: 25px;
 margin-left: 50px;
 }
 
-.icone6:hover { 
-  background-color: #ffffff;
+.icone6:hover {
+background-color:#ffffff;
 }
 
 
@@ -254,13 +268,10 @@ margin-left: 50px;
 .sair {
 margin-top: 75px;
 display: flex;
-height: 80px;
-width: 5px;
+height: 10px;
+width: 10px;
 margin-left: 50px;
 color: #000814;
 font-size: 15px;
 }
 
-
-
- 

@@ -151,15 +151,17 @@ border-bottom: 1px solid #898989;
 flex-direction: row;
 }
 
+
 /* Tela */
 
 .tela {
 width: 8%;
-height: 100vh;
+height: 104vh;
+margin-top: -1299px;
 background-color: #F2EEE9;
-margin-top: -1298px;
 display: flex;
 }
+
 
 
 /* icons esquedo */
@@ -167,15 +169,15 @@ display: flex;
 .icone1 {
 display: flex;
 color: #000814;
-margin-top: -815px;
+margin-top: -858px;
 height: 40px;
 width: 50px;
 border-radius: 25px;
 margin-left: 50px;
 }
 
-.icone1:hover { 
-  background-color: #ffffff;
+.icone1:hover {
+background-color:#ffffff;
 }
 
 .icone2 {
@@ -188,9 +190,10 @@ border-radius: 25px;
 margin-left: 45px;
 }
 
-.icone2:hover { 
-  background-color: #ffffff;
+.icone2:hover {
+background-color:#ffffff;
 }
+
 
 .icone3 {
 margin-top: 60px;
@@ -202,8 +205,8 @@ border-radius: 25px;
 margin-left: 50px;
 }
 
-.icone3:hover { 
-  background-color: #ffffff;
+.icone3:hover {
+background-color:#ffffff;
 }
 
 .icone4 {
@@ -214,11 +217,11 @@ height: 45px;
 width: 50px;
 border-radius: 25px;
 margin-left: 50px;
-background-color: #ffffff;
+background-color:#ffffff;
 }
 
-.icone4:hover { 
-  background-color: #ffffff;
+.icone4:hover {
+background-color:#ffffff;
 }
 
 .icone5 {
@@ -231,8 +234,8 @@ border-radius: 25px;
 margin-left: 55px;
 }
 
-.icone5:hover { 
-  background-color: #ffffff;
+.icone5:hover {
+background-color:#ffffff;
 }
 
 .icone6 {
@@ -245,8 +248,8 @@ border-radius: 25px;
 margin-left: 50px;
 }
 
-.icone6:hover { 
-  background-color: #ffffff;
+.icone6:hover {
+background-color:#ffffff;
 }
 
 
@@ -254,8 +257,8 @@ margin-left: 50px;
 .sair {
 margin-top: 75px;
 display: flex;
-height: 80px;
-width: 5px;
+height: 10px;
+width: 10px;
 margin-left: 50px;
 color: #000814;
 font-size: 15px;
@@ -263,4 +266,5 @@ font-size: 15px;
 
 
 
+ 
  

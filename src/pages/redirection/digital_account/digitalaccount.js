@@ -1,5 +1,5 @@
 // CSS
-import styles from "./lean.module.css";
+import styles from "./digitalaccount.module.css";
 
 // hooks
 import { useNavigate, Link } from "react-router-dom";
@@ -13,13 +13,10 @@ import CheckIcon from '@mui/icons-material/Check';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
 
 
 
-const Lean = () => {
+const Accountbank = () => {
 
 
     const { logout } = useAuthentication();
@@ -27,18 +24,22 @@ const Lean = () => {
     return (
         <div className={styles.home}>
 
-            <div className={styles.foto1}><img src="img/fotos/emprestimo.png"></img></div>
+            <div className={styles.foto1}><img src="img/fotos/contabanco.png"></img></div>
 
             <div className={styles.beneficios} >
                 <div className={styles.Emprestimop}>Empréstimo pessoal</div>
 
-                <div className={styles.beneficios1} > <CheckIcon /> 45 dias para a primeira parcela</div>
+                <div className={styles.beneficios1} > <CheckIcon /> Realize transferências DOC e TED;</div>
 
-                <div className={styles.beneficios2} > <CheckIcon /> Contratação online</div>
+                <div className={styles.beneficios2} > <CheckIcon /> Efetue pagamentos com Código de Barras;</div>
 
-                <div className={styles.beneficios3} > <CheckIcon /> Recebimento rápido e fácil</div>
+                <div className={styles.beneficios3} > <CheckIcon /> Consulta de saldo e extrato;</div>
 
-                <a href="https://www.crefisa.com.br/para-voce/emprestimo-pessoal/" target="_blank "><button className={styles.Fazerem} > FAZER EMPRÉSTIMO <ChevronRightIcon className={styles.Fazerem1} /> </button></a>
+                <div className={styles.beneficios4} > <CheckIcon /> Simule seu Empréstimo e tenha Dinheiro na mão;</div>
+                 
+                <div className={styles.beneficios5} > <CheckIcon /> Faça sua Portabilidade de Salário.</div>
+
+                <a href="https://www.crefisa.com.br/para-voce/conta-corrente/" target="_blank "><button className={styles.Fazerem} > ABRIR MINHA CONTA <ChevronRightIcon className={styles.Fazerem1} /> </button></a>
             </div>
 
             <div className={styles.telab2} >
@@ -69,11 +70,11 @@ const Lean = () => {
 
             <Link to="/networking" className={styles.icone3} ><img src="img/icones/akar-icons_network.png"></img></Link>
 
-            <Link to="/posts/create" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
+            <Link to="/lean" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
 
-            <Link to="/posts/create" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
+            <Link to="/accountbank" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
 
-            <Link to="/financeiro" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
+            <Link to="/machinecard" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
 
             <Link to="/" className={styles.sair} onClick={logout} >SAIR</Link>
 
@@ -87,6 +88,6 @@ const Lean = () => {
     );
 };
 
-export default Lean;
+export default Accountbank;
 
 

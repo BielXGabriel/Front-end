@@ -28,7 +28,7 @@ cursor: pointer;
 
 /* Texto superior */
 
-.navbar {
+.navba {
 width: 150px;
 height: 58px;
 border: none;
@@ -39,7 +39,7 @@ font-size: 30px;
 padding-bottom: 29px;
 }
 
-.navbar i {
+.navba i {
 font-weight: bold;
 padding-bottom: 29px;
 display: flex;
@@ -243,12 +243,11 @@ flex-direction: row;
 /* tela fundo */
 
 .slide{
-display: inline-flex;
 width: 930px;
 height: 270px;
-border-radius: 15px;
 margin-top: 120px;
-margin-left: 0px;
+left: -300px;
+border-radius: 15px;
 }
 
 .tela1 {
@@ -332,15 +331,19 @@ margin-top: 190px;
 cursor: pointer;
 }
 
+
+
+
 /* Tela */
 
 .tela {
 width: 8%;
-height: 100vh;
+height: 87.5vh;
 margin-top: -341px;
 background-color: #F2EEE9;
-display: inline-block;
+display: flex;
 }
+
 
 
 /* icons esquedo */
@@ -348,15 +351,15 @@ display: inline-block;
 .icone1 {
 display: flex;
 color: #000814;
-margin-top: -815px;
+margin-top: -700px;
 height: 40px;
 width: 50px;
 border-radius: 25px;
 margin-left: 50px;
 }
 
-.icone1:hover { 
-  background-color: #ffffff;
+.icone1:hover {
+background-color:#ffffff;
 }
 
 .icone2 {
@@ -369,9 +372,10 @@ border-radius: 25px;
 margin-left: 45px;
 }
 
-.icone2:hover { 
-  background-color: #ffffff;
+.icone2:hover {
+background-color:#ffffff;
 }
+
 
 .icone3 {
 margin-top: 60px;
@@ -383,8 +387,8 @@ border-radius: 25px;
 margin-left: 50px;
 }
 
-.icone3:hover { 
-  background-color: #ffffff;
+.icone3:hover {
+background-color:#ffffff;
 }
 
 .icone4 {
@@ -397,8 +401,8 @@ border-radius: 25px;
 margin-left: 50px;
 }
 
-.icone4:hover { 
-  background-color: #ffffff;
+.icone4:hover {
+background-color:#ffffff;
 }
 
 .icone5 {
@@ -411,8 +415,8 @@ border-radius: 25px;
 margin-left: 55px;
 }
 
-.icone5:hover { 
-  background-color: #ffffff;
+.icone5:hover {
+background-color:#ffffff;
 }
 
 .icone6 {
@@ -425,8 +429,8 @@ border-radius: 25px;
 margin-left: 50px;
 }
 
-.icone6:hover { 
-  background-color: #ffffff;
+.icone6:hover {
+background-color:#ffffff;
 }
 
 
@@ -434,8 +438,8 @@ margin-left: 50px;
 .sair {
 margin-top: 75px;
 display: flex;
-height: 80px;
-width: 5px;
+height: 10px;
+width: 10px;
 margin-left: 50px;
 color: #000814;
 font-size: 15px;

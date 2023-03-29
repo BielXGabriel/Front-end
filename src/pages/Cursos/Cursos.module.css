@@ -2,16 +2,12 @@
 
 .t1{
 display: flex;
+width: 250px;
 margin-top: 26px;
 margin-left:260px;
 }
 
-.acesse1:hover{
-background: #ffffff;
-color: #000814;;
-cursor: pointer;
-border-radius: 10px;
-}
+
 
 .acesse1{
 margin-top: 20px;
@@ -24,6 +20,13 @@ color:#ffffff;
 display: inline-block;
 border-radius: 10px;
 cursor: pointer;
+}
+
+.acesse1:hover{
+background: #ffffff;
+color: #000814;;
+cursor: pointer;
+border-radius: 10px;
 }
 
 .t3{
@@ -184,16 +187,7 @@ border-left: none;
 border-right: none;
 }
 
-/* icon pesquisa */
 
-.SearchIcon{
-width: 100px;
-height: 100px;
-margin-top: 0px;
-margin-left:1300px;
-font-weight: bold;
-cursor: pointer;
-}
 
 /* bot 3 topo */
 
@@ -246,17 +240,7 @@ display: flex;
 
 /*  botão */
 
-.serv1 {
-height: 25px;
-width: 200px;
-margin-left: 190px;
-margin-top: 0px;
-border-radius: 35px;
-color: #858181;
-font-size: 100%;
-justify-content: center;
-position: absolute;
-}
+
   
 .serv1 i {
 margin-left: -190px;
@@ -278,8 +262,8 @@ position: absolute;
 }
 
 .btb{
-height: 80px;
-width: 80px;
+height: 60px;
+width: 60px;
 background-color:#F2EEE9;
 margin-left: -90px;
 margin-top: -5px;
@@ -291,12 +275,16 @@ position: absolute;
 
 
 .btb2{
-height: 80px;
-width: 80px;
-background-color:#F2EEE9;
+margin-left: -73px;
+margin-top: 10px;
+cursor: pointer;   
+border: none;
+position: absolute;
+}
+
+.btb3{
 margin-left: -90px;
 margin-top: -5px;
-border-radius: 50px;
 cursor: pointer;   
 border: none;
 position: absolute;
@@ -483,7 +471,7 @@ margin-left:1450px;
 display: inline-block;
 }
 
-.btb3{ 
+.play1{ 
 width: 50px;
 height: 50px;
 margin-left: 170px;
@@ -498,7 +486,6 @@ cursor: pointer;
 .slide3{
 width: 400px;
 height:330px;
-border-radius: 15px;
 margin-top: 50px;
 margin-left:1450px;
 display: flex;
@@ -506,7 +493,6 @@ display: flex;
 
 .ferra{
 margin-left: 0px;
-border-radius: 15px;
 margin-top: 0px;
 display: flex;
 }
@@ -590,7 +576,7 @@ flex-direction: row;
 
 .tela {
 width: 8%;
-height: 797px;
+height: 87.5vh;
 margin-top: -740px;
 background-color: #F2EEE9;
 display: flex;
@@ -603,15 +589,15 @@ display: flex;
 .icone1 {
 display: flex;
 color: #000814;
-margin-top: -705px;
+margin-top: -700px;
 height: 40px;
 width: 50px;
 border-radius: 25px;
 margin-left: 50px;
 }
 
-.icone1:hover { 
-    background-color: #ffffff;
+.icone1:hover {
+background-color:#ffffff;
 }
 
 .icone2 {
@@ -622,12 +608,13 @@ height: 35px;
 width: 50px;
 border-radius: 25px;
 margin-left: 45px;
-background-color: #ffffff;
+background-color:#ffffff;
 }
 
-.icone2:hover { 
-    background-color: #ffffff;
+.icone2:hover {
+background-color:#ffffff;
 }
+
 
 .icone3 {
 margin-top: 60px;
@@ -639,8 +626,8 @@ border-radius: 25px;
 margin-left: 50px;
 }
 
-.icone3:hover { 
-background-color: #ffffff;
+.icone3:hover {
+background-color:#ffffff;
 }
 
 .icone4 {
@@ -653,8 +640,8 @@ border-radius: 25px;
 margin-left: 50px;
 }
 
-.icone4:hover { 
-    background-color: #ffffff;
+.icone4:hover {
+background-color:#ffffff;
 }
 
 .icone5 {
@@ -667,8 +654,8 @@ border-radius: 25px;
 margin-left: 55px;
 }
 
-.icone5:hover { 
-    background-color: #ffffff;
+.icone5:hover {
+background-color:#ffffff;
 }
 
 .icone6 {
@@ -681,8 +668,8 @@ border-radius: 25px;
 margin-left: 50px;
 }
 
-.icone6:hover { 
-    background-color: #ffffff;
+.icone6:hover {
+background-color:#ffffff;
 }
 
 
@@ -690,12 +677,13 @@ margin-left: 50px;
 .sair {
 margin-top: 75px;
 display: flex;
-height: 80px;
-width: 5px;
+height: 10px;
+width: 10px;
 margin-left: 50px;
 color: #000814;
 font-size: 15px;
 }
 
-  
+
+
  

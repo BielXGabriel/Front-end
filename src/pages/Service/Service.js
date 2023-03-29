@@ -106,10 +106,10 @@ const Service = () => {
       </Swiper>
 
 
-      <img className={styles.img1} src="https://s3-alpha-sig.figma.com/img/e43a/0baf/84a4f6b2fb6c6486a75e6e5037a15eb2?Expires=1678060800&Signature=JE80rwPQzJpa0zNxyn258EodcW4G6tYTIFz-af6jaOhwyEwjFieIyy3OMwzXgLBjb2dTvSGhG~PDvVMX6X~vK7FluWDGg~XEyhX4HFaO-UpQxQhrt4QseKChL89s94ZXzxlCY-D~PmJiAhWqaLJ3TcecrPiPTFU6zDfuSxshBiyGDUX~neuqJNBIB35mGB0TiD5dpUFFbrzWBEzjvWpyjqZQSqJJr0ICoj5WexMoG2hAn6eBuu74dwTeQi9Uv8craJ7dO24ocRD5eBiXm1c5hlxGRiExFCX8011maHsXv86w6LodgdzlcjblTa7Dxwp~Iahn0ekOt5VGlhDqPoZxpQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"></img>
-      <img className={styles.img2} src="https://s3-alpha-sig.figma.com/img/058f/5355/59dcbb9a3899033ffdd8260ae10c3bb0?Expires=1678060800&Signature=QAcueAzsuo8bjNRZ3VX4~PSCrCydFhV-13T7PxyvMWqqMiGnhi6e8SanMeSbAO4QKdGVj7Uo0ZMo5bMwSkDA2Klal0j2M6RPYrSz4Iovvag3bRWg9Xo~IbzZBBn-vdrtRpEswR0WcCrkQ2J4vrjqtqb3NCRNsJ6TrLVo3YO1999VHL70LFQYPK8BYBdfSPfPr0U6ymbXFSuFqc3nbAF0o2BqwVM2NjcwiuPxwI9QztbcbzsDrJ0kfHPXw~GxqscxcY~-Ds8hXNGNbIptS8jrUKytl~ErSowfWssuhxpW944FqnbrgrgmVlek7sRkK7XePej8tDmv8hi7lIlsSxkwxA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"></img>
-      <img className={styles.img3} src="https://s3-alpha-sig.figma.com/img/d8b1/ed38/48a0117c893c0fa45615698e3ffdc1c2?Expires=1678060800&Signature=LF2fBAjKgbFTeXl5Sw1PJChWMfa7Y2jlR5J4AXyAuCkyVE7B5rIJRMc5QDxgTu5C6GxAaEfexOn7hcqx~Ic0mvtErk10VqHqwDoIrH1m8KCL4INNHEQGfhkj2K1LmQ9V8~hX-~qwTL45xWK0rH~6wxZtjaqbLMIUQAaViXwXnBhdR5d0INUvgIq4vGiaS7pg6E5PY0e1l8O04IpWbVTmo~ECKfEj7S6u96KnZjrD-BoEBiTiAGFnlu8D2~Q1d7A7dD3EkuMd6EeFiIqXBKG4t-MiGzTPVKpOTsUlyCxd7bglDgr0KNABaUcd60EWyRIAxs5Hv4ozCZAokS~oRN6pOg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"></img>
-      <img className={styles.img4} src="https://s3-alpha-sig.figma.com/img/f25a/3b37/ab75cc2b256686be2a420ea21cbd5d58?Expires=1678060800&Signature=HT~cfL~JRAm9Y73K8teTpGtzqn1hs7NRUjCeqBXsVplpMGJJR-A5otjymrlSN8~3w0qHCJT9eSboBP8eIVUtquGE8w~Hb3DxPLG8Nhkh-czBX206Xfqv5OJ7UHJaew9JEQ3gY-Ej0KNBlWhyemBIF39f4mBqNhpr31vNssfHQu1tk~LE~-Ye-72o8198IuS7rDQenSnjYo43ebZ9-kKpQiTndme-hDv-9oJME5JzQAbRI89Rgi6msBJfmI781HyBO~UyXYEG-2GV6~s75VIWAw~B7AtTGQY7yj~UI8bGMMTGGIAtM9MbVeoCXFnW12V8eHCDY1I3nDaO2ANEm0H4eg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"></img>
+      <img className={styles.img1} src="img/fotos/REctangle 396.png"></img>
+      <img className={styles.img2} src="img/fotos/REctangle 398.png"></img>
+      <img className={styles.img3} src="img/fotos/REctangle 399.png"></img>
+      <img className={styles.img4} src="img/fotos/REctangle 397.png"></img>
 
 
       <div className={styles.texto1}>RESULTADOS</div>
@@ -129,16 +129,13 @@ const Service = () => {
 
 
       <Swiper 
-      
       direction="Vertical"
         className={styles.slide2}
         modules={[Navigation, Pagination]}
         slidesPerView={3}
         navigation={{
           nextEl: ".swiper-button-next" ,
-          prevEl: ".swiper-button-prev", 
-        
-          
+          prevEl: ".swiper-button-prev",    
   }}>
 
 
@@ -239,11 +236,11 @@ const Service = () => {
 
       <Link to="/networking" className={styles.icone3} ><img src="img/icones/akar-icons_network.png"></img></Link>
 
-      <Link to="/posts/create" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
+      <Link to="/lean" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
 
-      <Link to="/posts/create" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
+      <Link to="/accountbank" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
 
-      <Link to="/financeiro" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
+      <Link to="/machinecard" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
 
       <Link to="/" className={styles.sair} onClick={logout} >SAIR</Link>
 

@@ -51,10 +51,10 @@ const S4 = () => {
     
     <div className={styles.texto3}><LocationOnIcon/>online</div>
     
-    <img className={styles.img1} src="https://br.advfn.com/jornal/files/2016/08/Transportep%C3%BAblico.jpg"></img>
-    <img className={styles.img2} src="https://www.diariodequeretaro.com.mx/incoming/etmvob-transporte-publico-camion/ALTERNATES/LANDSCAPE_768/Transporte%20p%C3%BAblico,%20cami%C3%B3n"></img>
-    <img className={styles.img3} src="https://media-cdn.tripadvisor.com/media/photo-s/0a/8b/21/23/trasporte-y-turismo.jpg"></img>
-        
+   
+<img className={styles.img1} src="img/serviços/REctangle 318.png"></img>
+<img className={styles.img2} src="img/serviços/REctangle 320.png"></img>
+<img className={styles.img3} src="img/serviços/REctangle 321.png"></img>
     
     
     <div className={styles.texto4}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. </div>
@@ -101,11 +101,11 @@ const S4 = () => {
 
 <Link to="/networking" className={styles.icone3} ><img src="img/icones/akar-icons_network.png"></img></Link>
 
-<Link to="/posts/create" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
+<Link to="/lean" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
 
-<Link to="/posts/create" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
+<Link to="/accountbank" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
 
-<Link to="/financeiro" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
+<Link to="/machinecard" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
 
 <Link to="/" className={styles.sair} onClick={logout} >SAIR</Link>
 

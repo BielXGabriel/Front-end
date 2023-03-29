@@ -50,7 +50,7 @@ const Home = () => {
   return (
     <div className={styles.home}>
 
-      <div className={styles.navbar}>
+      <div className={styles.navba}>
         <i>Impulsione</i>  by Crefisa
       </div>
 
@@ -66,69 +66,71 @@ const Home = () => {
 
 
       </form>
-
-        <Swiper className={styles.slide}
-          modules={[Navigation, Pagination]}
-          slidesPerView={3}
-          navigation>
-
-
-          <SwiperSlide >
-            <div className={styles.tela1}>
+      <Swiper id="container" className={styles.slide}
+        modules={[Navigation, Pagination]}
+        slidesPerView={3}
+        navigation>
 
 
-              <div className={styles.explorebutton}><a href="">EXPLORE O CURSO</a></div>
-              <div><h8 className={styles.h2}>Novidade em cursos</h8></div>
-              <div><h6 className={styles.h1}>Gestão de projetos para aumentar a produtividade na sua empresa</h6></div>
+        <SwiperSlide >
+          <div className={styles.tela1}>
 
-            </div>
-          </SwiperSlide>
 
+            <div className={styles.explorebutton}><a href="">EXPLORE O CURSO</a></div>
+            <div><h8 className={styles.h2}>Novidade em cursos</h8></div>
+            <div><h6 className={styles.h1}>Gestão de projetos para aumentar a produtividade na sua empresa</h6></div>
+
+          </div>
+        </SwiperSlide>
 
 
 
-          <SwiperSlide>
-            <div className={styles.tela2}>
 
-              <Link to="/posts/create" className={styles.explorebutton}><a href="">EXPLORE O CURSO</a></Link>
-              <div><h8 className={styles.h2}>Novidade em cursos</h8></div>
-              <div><h6 className={styles.h1}>Gestão de projetos para aumentar a produtividade na sua empresa</h6></div>
+        <SwiperSlide>
+          <div className={styles.tela2}>
 
-            </div>
-          </SwiperSlide>
+            <Link to="/posts/create" className={styles.explorebutton}><a href="">EXPLORE O CURSO</a></Link>
+            <div><h8 className={styles.h2}>Novidade em cursos</h8></div>
+            <div><h6 className={styles.h1}>Gestão de projetos para aumentar a produtividade na sua empresa</h6></div>
 
-
-          <SwiperSlide>
-            <div className={styles.tela3}>
-
-              <div className={styles.explorebutton}><a href="">EXPLORE O CURSO</a></div>
-              <div><h8 className={styles.h2}>Novidade em cursos</h8></div>
-              <div><h6 className={styles.h1}>Gestão de projetos para aumentar a produtividade na sua empresa</h6></div>
-
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className={styles.tela4}>
-
-              <div className={styles.explorebutton}><a href="">EXPLORE O CURSO</a></div>
-              <div><h8 className={styles.h2}>Novidade em cursos</h8></div>
-              <div><h6 className={styles.h1}>Gestão de projetos para aumentar a produtividade na sua empresa</h6></div>
-
-            </div>
-          </SwiperSlide>
+          </div>
+        </SwiperSlide>
 
 
+        <SwiperSlide>
+          <div className={styles.tela3}>
 
-        </Swiper>
+            <div className={styles.explorebutton}><a href="">EXPLORE O CURSO</a></div>
+            <div><h8 className={styles.h2}>Novidade em cursos</h8></div>
+            <div><h6 className={styles.h1}>Gestão de projetos para aumentar a produtividade na sua empresa</h6></div>
 
-        <button className={styles.bt1}><box className={styles.box1}></box><nobr>NOME SERVIÇO AQUI</nobr></button>
+          </div>
+        </SwiperSlide>
 
-        <button className={styles.bt2}><box className={styles.box1}></box><nobr>NOME SERVIÇO AQUI</nobr></button>
+        <SwiperSlide>
+          <div className={styles.tela4}>
 
-        <button className={styles.bt3}><box className={styles.box1}></box><nobr>NOME SERVIÇO AQUI</nobr></button>
+            <div className={styles.explorebutton}><a href="">EXPLORE O CURSO</a></div>
+            <div><h8 className={styles.h2}>Novidade em cursos</h8></div>
+            <div><h6 className={styles.h1}>Gestão de projetos para aumentar a produtividade na sua empresa</h6></div>
 
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>1</SwiperSlide>
+        <SwiperSlide>2</SwiperSlide>
+
+
+
+      </Swiper>
       
+      <button className={styles.bt1}><box className={styles.box1}></box><nobr>NOME SERVIÇO AQUI</nobr></button>
+
+      <button className={styles.bt2}><box className={styles.box1}></box><nobr>NOME SERVIÇO AQUI</nobr></button>
+
+      <button className={styles.bt3}><box className={styles.box1}></box><nobr>NOME SERVIÇO AQUI</nobr></button>
+
+
 
 
       <div className={styles.tela}></div>
@@ -145,9 +147,9 @@ const Home = () => {
 
       <Link to="/lean" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
 
-      <Link to="/posts/create" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
+      <Link to="/accountbank" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
 
-      <Link to="/financeiro" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
+      <Link to="/machinecard" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
 
       <Link to="/" className={styles.sair} onClick={logout} >SAIR</Link>
 

@@ -29,15 +29,15 @@ const Card = () => {
             <div className={styles.foto1}><img src="img/fotos/cartao.png"></img></div>
 
             <div className={styles.beneficios} >
-                <div className={styles.Emprestimop}>Empréstimo pessoal</div>
+                <div className={styles.Emprestimop}>Maquininha CrefisaPay</div>
 
-                <div className={styles.beneficios1} > <CheckIcon /> 45 dias para a primeira parcela</div>
+                <div className={styles.beneficios1} > <CheckIcon /> Gerencie suas vendas pelo app</div>
 
-                <div className={styles.beneficios2} > <CheckIcon /> Contratação online</div>
+                <div className={styles.beneficios2} > <CheckIcon /> Antecipe o recebimento do valor das suas vendas</div>
 
-                <div className={styles.beneficios3} > <CheckIcon /> Recebimento rápido e fácil</div>
+                <div className={styles.beneficios3} > <CheckIcon /> Chip e plano de dados grátis.</div>
 
-                <a href="https://www.crefisa.com.br/para-voce/emprestimo-pessoal/" target="_blank "><button className={styles.Fazerem} > FAZER EMPRÉSTIMO <ChevronRightIcon className={styles.Fazerem1} /> </button></a>
+                <a href="https://www.crefisa.com.br/crefisapay/" target="_blank "><button className={styles.Fazerem} > QUERO A CREFISAPAY<ChevronRightIcon className={styles.Fazerem1} /> </button></a>
             </div>
 
             <div className={styles.telab2} >
@@ -68,11 +68,11 @@ const Card = () => {
 
             <Link to="/networking" className={styles.icone3} ><img src="img/icones/akar-icons_network.png"></img></Link>
 
-            <Link to="/posts/create" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
+            <Link to="/lean" className={styles.icone4} ><img src="img/icones/Group.png"></img></Link>
 
-            <Link to="/posts/create" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
+            <Link to="/accountbank" className={styles.icone5} ><img src="img/icones/Cel.png"></img></Link>
 
-            <Link to="/financeiro" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
+            <Link to="/machinecard" className={styles.icone6} ><img src="img/icones/money.png"></img></Link>
 
             <Link to="/" className={styles.sair} onClick={logout} >SAIR</Link>
 
